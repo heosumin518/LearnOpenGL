@@ -4,16 +4,55 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="2.1">
+    <Filter Include="2.1 Create Window">
       <UniqueIdentifier>{545e9719-f688-402b-bd07-4f5fe3d2685a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.2 Coordinate System">
+      <UniqueIdentifier>{7d6477d8-221c-4608-84be-b421c00075a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.3 Geometric Basic Shapes">
+      <UniqueIdentifier>{f6e2ff2d-1706-4933-ba61-ecea215575b3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01_window_generation.cpp">
-      <Filter>2.1</Filter>
+      <Filter>2.1 Create Window</Filter>
     </ClCompile>
     <ClCompile Include="02_N_gonal_Polygon.cpp">
-      <Filter>2.1</Filter>
+      <Filter>2.1 Create Window</Filter>
+    </ClCompile>
+    <ClCompile Include="03_draw_points.cpp">
+      <Filter>2.1 Create Window</Filter>
+    </ClCompile>
+    <ClCompile Include="04_clipping_viewport.cpp.cpp">
+      <Filter>2.2 Coordinate System</Filter>
+    </ClCompile>
+    <ClCompile Include="05_n_polygon_and_scaling.cpp">
+      <Filter>2.2 Coordinate System</Filter>
+    </ClCompile>
+    <ClCompile Include="06_primitives.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="07_moving_star_with_collision.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="08_twisted_fractal_based_on_triangles.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="09_bezier_curve.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="10_mouse_and_viewport.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="11_block_block.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="12_solar_system.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="13_circle_block_game.cpp">
+      <Filter>2.3 Geometric Basic Shapes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
